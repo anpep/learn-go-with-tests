@@ -1,4 +1,4 @@
-package main
+package hello
 
 import "fmt"
 
@@ -22,8 +22,4 @@ func Hello(name string, lang string) string {
 		name = worlds[lang]
 	}
 	return fmt.Sprintf(helloFormats[lang], name)
-}
-
-func main() {
-	fmt.Println(Hello("Go", "spanish"))
 }
