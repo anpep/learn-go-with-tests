@@ -1,4 +1,4 @@
-package reading_files
+package blogposts
 
 import (
 	"reflect"
